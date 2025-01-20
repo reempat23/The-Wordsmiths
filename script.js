@@ -71,3 +71,11 @@ prevBtn.addEventListener("click", showPrevCard);
 
 // แสดงการ์ดแรกเมื่อโหลดหน้าเว็บ
 showCard(currentIndex);
+
+// เลือกปุ่ม "ไปหน้าอื่น"
+const goToAnotherPage = document.getElementById("go-to-another-page");
+
+// เพิ่มเหตุการณ์คลิกเพื่อเปิดหน้าเว็บอื่น
+goToAnotherPage.addEventListener("click", () => {
+    window.location.href = "https://script.google.com/a/macros/tn.ac.th/s/AKfycbzQ8BotB2t0q1a5PYm34qiKPB6v1cJ_JwEPo95-A1Sk/dev"; // เปลี่ยนลิงก์เป็นเว็บที่ต้องการ
+});
