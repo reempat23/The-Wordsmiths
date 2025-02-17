@@ -77,5 +77,5 @@ const goToAnotherPage = document.getElementById("go-to-another-page");
 
 // เพิ่มเหตุการณ์คลิกเพื่อเปิดหน้าเว็บอื่น
 goToAnotherPage.addEventListener("click", () => {
-    window.location.href = "https://script.google.com/a/macros/tn.ac.th/s/AKfycbzpDg7x_K8AJKu3F1serqwaDAl1zpLRoCW7dtMyIvBOftDW-I_Ov0_CdgbgLe8HIt4wmw/exec"; // เปลี่ยนลิงก์เป็นเว็บที่ต้องการ
+    window.location.href = "https://script.google.com/a/macros/tn.ac.th/s/AKfycbxC5GSVyV-RbvTdgXivfdrgHYmxMQIrjdVrfX3y6C8qAWETE-3SJfrZpEoVRPVRtwTgmA/exec"; // เปลี่ยนลิงก์เป็นเว็บที่ต้องการ
 });
